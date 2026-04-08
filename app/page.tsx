@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { demoData } from "@/lib/demoData";
-import { generateInsights } from "@/lib/insights";
+import { demoData } from "../lib/demoData";
+import { generateInsights } from "../lib/insights";
 
 export default function Dashboard() {
   const [data, setData] = useState<any>(null);
